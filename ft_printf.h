@@ -6,7 +6,7 @@
 /*   By: lkrabbe <lkrabbe@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/03 13:48:48 by lkrabbe           #+#    #+#             */
-/*   Updated: 2022/07/25 23:09:30 by lkrabbe          ###   ########.fr       */
+/*   Updated: 2022/07/05 18:35:05 by lkrabbe          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ const static char	g_null[] = "(null)";
 //struct that store flags and string related values
 typedef struct s_arg
 {
-	char	num[64];//itoa  buffer
+	char	num[64];
 	char	dta_typ;
 	char	*dta_str;
 	int		dta_len;

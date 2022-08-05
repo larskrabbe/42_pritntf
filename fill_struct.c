@@ -6,7 +6,7 @@
 /*   By: lkrabbe <lkrabbe@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/29 19:44:27 by lkrabbe           #+#    #+#             */
-/*   Updated: 2022/07/25 23:15:59 by lkrabbe          ###   ########.fr       */
+/*   Updated: 2022/07/03 15:30:05 by lkrabbe          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,7 +57,7 @@ static char	*quick_convert(char *str, int *nbr, va_list va_ptr)
 
 char	*fill_list(char *str, struct s_arg *input, va_list va_ptr)
 {
-	// str++;
+	str++;
 	str = fill_flags(str, input);
 	if (ft_isdigit(*str) || *str == '*')
 		str = quick_convert(str, &input->width, va_ptr);
